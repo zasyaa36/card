@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    position: relative;
+}
+
+.rain {
+    width: 350px;
+    height: 500px;
+    /* gambar */
+    background-image: url('rain.jpg');
+    background-size: cover;
+    box-shadow: 0 14px 25px 0px #00000026;
+    position: relative;
+    border-radius: 15px;
+}
+
+.love-rain {
+    position: absolute;
+    padding: 10px;
+    font-family: sans-serif;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    bottom: 10px;
+    left: 20px;
+    right: 20px;
+    border-radius: 12px;
+}
+
+h1 {
+    margin-bottom: 12px;
+    text-color: dark;
+}
+
+p{
+    font-size: 15px;
+}
